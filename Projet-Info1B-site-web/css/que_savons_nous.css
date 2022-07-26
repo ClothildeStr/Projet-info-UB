@@ -1,0 +1,116 @@
+body{background-image: url(../media/photo/fond_math_2.jpg);}
+
+#titre_rubrique{
+	margin-top: 0;
+	padding-top: 2.5cm;
+	text-align: center;
+	color: #FFD700;
+	font-family: fantasy;
+	text-decoration: underline;
+	font-size: 3em;
+}
+
+details{
+	width: 20%;
+	margin-left: 5%
+}
+
+details{
+	color: #FFD700;
+	font-size: 3em;
+}
+
+/*********** article **************/
+
+
+#article_1{
+	background-color: white;
+	margin-left: 50%;
+	margin-right: 10%;
+}
+
+#underline{
+	text-decoration: underline;
+}
+
+h2{
+	font-size: 2em;
+	text-align: center;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+
+/*********** calculatrice **************/
+
+#calculatrice{
+	margin-top: -20%;
+	margin-left: 10%;
+}
+
+table{
+	border-collapse: collapse;
+	background-color: #CD5C5C;
+	}
+
+.affich_result{
+	width: 8.3cm;
+	height: 2cm;
+	font-size: 2em;
+	border-color: #FFEBCD;
+	border-radius: 40px;
+	color: #3D3C3C;
+}
+
+#resultat{
+	width: 3.85cm;
+}
+
+.button{
+	width: 2cm;
+	height: 2cm;
+	font-family: cursive;
+	font-size: 1em;
+	margin: 5%;
+	cursor: pointer;
+	border-radius: 40px;
+	border-color: #FFEBCD;
+	color: #3D3C3C;
+}
+
+/************ canvas ***********/
+#article_2{
+	background-color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+}
+
+canvas{
+	border: 10px #FFD700 outset;
+	width: 15cm;
+	background-color: #F5F5F5;
+	margin-left: 30%;
+	margin-top: 5%;
+}
+
+#img_1{
+	width: 10cm;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#img_2{
+	width: 7cm;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+

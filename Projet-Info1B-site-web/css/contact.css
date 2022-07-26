@@ -1,0 +1,77 @@
+body{background-color: #D6EAF8;
+    color: #fffae1;
+    padding: 20px 0 10px 0;
+    text-align: center;}
+form{
+    margin: 0 auto;
+    max-width: 900px;}
+
+#tel{
+    border: none;
+    width: 46%;
+    padding: 15px 10px;
+    margin-left: 4%;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: "Advent Pro", sans-serif;
+    border-radius: 8px;
+}
+
+input, textarea{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: "Advent Pro", sans-serif;
+    border-radius: 8px;
+}
+
+select{
+    border: none;
+    width: 8.5%;
+    margin-left: 0%;
+    font-size: 1.2em;
+    font-family: "Advent Pro", sans-serif;
+    border-radius: 8px;
+}
+
+textarea {
+    height: 120px;
+}
+#Effacer{
+    font-size: 1.5em;
+    background-color: #fffae1;}
+
+#Valider{
+    font-size: 1.5em;
+    background-color: #fffae1;}
+
+#Envoyer{
+    font-size: 1.5em;
+    background-color: #fffae1;}
+
+
+#Effacer:hover{
+    background-color: #D98880;
+    color: #fffae1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;}
+
+#Valider:hover{
+    background-color: #FFA500;
+    color: #fffae1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;}
+
+#Envoyer:hover{
+    background-color: #ABEBC6;
+    color: #fffae1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;}
+
+h1{text-decoration: underline;
+    color: black;}
+
+p{color: red;}
+

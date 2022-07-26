@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+        <title>Contact</title>
+        <meta charset="utf-8">
+        <meta name="Anon_Suradin/Clothilde_Strainchamsps" content="nom auteur">
+        <link rel="stylesheet" type="text/css" href="../css/contact.css">
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+</head>
+<body>
+        <header>
+                <nav class="nav-menu">
+                        <ul>
+                                <li class="btn">
+                                        <a href="conseils_anon.html">Les conseils d'Anon</a>
+                                </li>
+                                <li class="btn">
+                                        <a href="conseilles_merclotte.html">Les conseils de Merclotte</a>
+                                </li>
+                                <li class="btn">
+                                        <a href="que_savons_nous.html">Que savons nous faire ?</a>
+                                </li>
+                        </ul>
+                        <a href="index.html"><img src="../media/photo/logo.png" alt="logo site"/></a>
+                </nav>
+        </header>
+        <br/><br/><br/><br/><br/>
+        <h1>Nous Contacter</h1>
+        <br/>
+        <p id="mes"></p>
+        <form name="formulaire" method="post" action="http://51.178.79.143/projet_Strainchamps_Suradin/Projet/html/mail.php">
+                <input type="text" id="nom" name="nom" placeholder="Nom">
+                <br/>
+                <input type="text" id="prenom" name="prenom" placeholder="Prénom">
+                <br/>
+                <select>
+                        <option id="autre">+33</option>
+                        <option id="Fr">+41</option>
+                        <option id="En">+49</option>
+                        <option id="Al">+32</option>
+                        <option id="Au">+39</option>
+                </select>
+                <input type="text" id="tel" name="tel" placeholder="N° de téléphone">
+                <br/>
+                <input type="email" id="email1" name="email1" placeholder="E-mail">
+                <br/>
+                <input type="email" id="email2" placeholder="Confirmer votre E-mail">
+                <br/>
+                <textarea id="msg" name="msg" placeholder="Vote message ici ..."></textarea>
+                <br/>
+                <input type="reset" id="Effacer" value="Effacer">
+                <br/>
+                <input type="button" id="Valider" value="Valider" onclick="validForm()">
+                <br/>
+                <input type="submit" id="Envoyer" value="Envoyer">
+        </form>
+        <footer>
+            <div class="boutton">
+                <button id="btn_retour" onclick="history.back()">Précédent</button>
+                <button id="btn_suivant" onclick="history.forward()">Suivant</button>
+            </div>
+        </footer>
+        <script src="../js/contact.js"></script>
+</body>
+</html>

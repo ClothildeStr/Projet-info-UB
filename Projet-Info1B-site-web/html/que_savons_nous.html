@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Que savons nous faire</title>
+    <meta charset="utf-8">
+    <meta name="Anon_Suradin/Clothilde_Strainchamsps" content="nom auteur">
+    <link rel="stylesheet" type="text/css" href="../css/que_savons_nous.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+</head>
+<body onload="draw()">
+	<header>
+		<nav class="nav-menu">
+			<ul>
+				<li class="btn">
+					<a href="contact.html">Contactez-nous</a>
+				</li>
+				<li class="btn">
+					<a href="conseils_anon.html">Les conseils d'Anon</a>
+				</li>
+				<li class="btn">
+					<a href="conseilles_merclotte.html">Le coin de Merclotte</a>
+				</li>
+			</ul>
+			<a href="index.html"><img src="../media/photo/logo.png" alt="logo site"/></a>
+		</nav>
+	</header>
+	<h1 id="titre_rubrique">Que savons nous faire</h1>
+	<details>
+		<summary>À découvrir</summary>
+		<ul>
+			<li>Une Calculatrice Simple</li>
+			<li>Un Joli Dessin</li>
+		</ul>
+	</details>
+	<br/>
+	<br/>
+	<article id="article_1">
+		<h2>Une calculatrice Simple</h2>
+		<p><span id="underline">Mode d'emplois:</span></p>
+		<ul>
+			<li>Pour les opérations simples comme l'additon, la multiplication, modulo ...,
+				tapez votre nombre puis l'opérateur et appuyer sur '=' pour voir votre résultat s'afficher.</li>
+			<li>Pour les autres touches tapez votre numéro puis appuyer sur cos si vous voulez connaître sont cosinus, par exemple.
+			</li>
+			<li>La flèche vous permet de faire un retour en arrière, si vous vous trompez dans la saisie de votre opération</li>
+			<li>La touche 'C' permet de faire une remise à zéro des calculs.</li>
+		</ul>
+	</article>
+	<div id="calculatrice">
+		<table>
+			<thead>
+				<tr>
+					<td colspan="4">
+						<form class="formcalcul" name="formcalcul">
+							<input class="affich_result" name="result">
+						</form>
+					</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><input type="button" class="button" value="cos" onclick="function_cos()"/></td>
+					<td><input type="button" class="button" value="sin" onclick="function_sin()"/></td>
+					<td><input type="button" class="button" value="tan" onclick="function_tan()"/></td>
+					<td><input type="button" class="button" value="C" onclick="cancel()"/></td>
+				</tr>
+				<tr>
+					<td><input type="button" class="button" value="x^2" onclick="carre()"/></td>
+					<td><input type="button" class="button" value="sqrt" onclick="sqrt()"/></td>
+					<td><input type="button" class="button" value="n!" onclick="facto()"/></td>
+					<td><input type="button" class="button" value="<--" onclick="back()"/></td>
+				</tr>
+				<tr>
+					<td><input type="button" class="button" value="log" onclick="log()"/></td>
+					<td><input type="button" class="button" value="ln" onclick="ln()"/></td>
+					<td><input type="button" class="button" value="exp" onclick="exp()"/></td>
+					<td><input type="button" class="button" value="+" onclick="inser('+')"/></td>
+				</tr>
+				<tr>
+					<td><input type="button" class="button" value="7" onclick="inser(7)"/></td>
+					<td><input type="button" class="button" value="8" onclick="inser(8)"/></td>
+					<td><input type="button" class="button" value="9" onclick="inser(9)"/></td>
+					<td><input type="button" class="button" value="-" onclick="inser('-')"/></td>
+					</tr>
+				<tr>
+					<td><input type="button" class="button" value="4" onclick="inser(4)"/></td>
+					<td><input type="button" class="button" value="5" onclick="inser(5)"/></td>
+					<td><input type="button" class="button" value="6" onclick="inser(6)"/></td>
+					<td><input type="button" class="button" value="*" onclick="inser('*')"/></td>
+				</tr>
+				<tr>
+					<td><input type="button" class="button" value="1" onclick="inser(1)"/></td>
+					<td><input type="button" class="button" value="2" onclick="inser(2)"/></td>
+					<td><input type="button" class="button" value="3" onclick="inser(3)"/></td>
+					<td><input type="button" class="button" value="÷" onclick="inser('/')"/></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td><input type="button" class="button" value="0" onclick="inser(0)"/></td>
+					<td colspan="2"><input type="button" id="resultat" class="button" value="=" onclick="result()"/></td>
+					<td><input type="button" class="button" value="%" onclick="inser('%')"/></td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+	<div id="courbe">
+		<article id="article_2">
+			<h2>Un joli dessin tout en courbes...</h2>
+			<p>Tout d'abord ce dessin a été réaliser à l'aide de courbes de béziers.
+			Pour le construire:</p>
+			<ul>
+				<li>J'ai choisi un dessin à réaliser</li>
+				<li>Ensuite à l'aide du logiciel de dessins InKscape j'ai tracé les lignes du dessins à l'aide de l'outil courbe de béziers</li>
+				<li>J'ai relevé les coordonnées des points nécéssaires (points de départ, de contrôle et d'arrivé) à la construction des courbes.</li>
+			</ul>
+			<img id="img_2" src="../media/photo/canvas_2.png" alt="image canvas 1">
+			<img id="img_1" src="../media/photo/canvas_1.png" alt="image canvas 2">
+		</article>
+		<canvas id="dessin" width="200" height="170"></canvas>
+	</div>
+	<script src="../js/que_savons_nous.js"></script>
+	<footer>
+       	<div class="bouton">
+       		<button id="btn_retour" onclick="history.back()">Précédent</button>
+        	<button id="btn_suivant" onclick="history.forward()">Suivant</button>
+        </div>
+    </footer>
+</body>
+</html>

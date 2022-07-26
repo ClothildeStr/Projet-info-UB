@@ -1,0 +1,149 @@
+body{background-color: #D6EAF8 ;;
+	 padding: 0;
+    margin: 0;}
+
+ul {margin: 0;
+    padding: 0;}
+
+li {list-style-type: none;}
+
+a {text-decoration: none;
+    color: black;
+	font-size: 0.7cm;}
+
+
+/************** NAV-BAR **************/
+nav{
+    overflow: hidden;
+    background-color: #fffae1;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;}
+
+header li {
+    float: right;
+    font-size: 1.2em;
+
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+	font-family: Snell Roundhand;
+	}
+
+nav.nav-menu ul li.btn:hover a{
+	color: #34495E;
+	transition: 0,3s all;}
+
+img{width: 3cm;
+	display: flex;
+    justify-content: flex-start;}
+
+/******* Image Principale *******/
+#img_principale{
+    padding-top: 60px;
+    background-image: url(../media/photo/IMG_2023.JPG);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+#text_principale{
+    font-family: Fantasy;
+    text-align: center;
+    color: #E6E6FA;
+    font-size: 6em;
+    margin-top: 40px;
+}
+
+#premier_trait{
+    height: 1px;
+    width: 100px;
+    margin: -80px auto;
+    background-color: white;
+}
+
+#slogan{
+    font-family: Fantasy;
+    text-align: center;
+    color: #E6E6FA;
+    font-size: 4em;
+    margin-top: 100px;
+}
+
+#titre_presentation{
+    text-align: center;
+}
+
+#presentation{
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #FFFAFA;
+    border: 1cm double white;
+    font-size: 1.5em;
+    margin-top: 5%;
+}
+
+/************* Horloge **********/
+.horloge{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color : black;
+    font-family: Snell Roundhand;
+}
+
+.heures{
+    font-size: 2cm; 
+}
+
+.date{
+    font-size: 2cm;
+}
+
+/********* Bas de Page *********/
+footer{
+    background-color: #fffae1;
+    margin-top: 3cm;
+}
+
+#btn_retour{
+    border: none;
+    background-color: #fffae1;
+    font-size: 1.2em;
+    font-family: "Advent Pro", sans-serif;
+    border-radius: 8px;
+    padding: 15px 10px;
+    margin: 1px 0;
+}
+
+.bouton{
+    text-align: center;
+}
+
+#btn_suivant{
+    border: none;
+    background-color: #fffae1;
+    font-size: 1.2em;
+    font-family: "Advent Pro", sans-serif;
+    border-radius: 8px;
+    padding: 15px 10px;
+    margin: 1px 0;
+}
+
+#btn_retour:hover{
+    background-color: #34495E;
+    color: #fffae1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#btn_suivant:hover{
+    background-color: #34495E;
+    color: #fffae1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}

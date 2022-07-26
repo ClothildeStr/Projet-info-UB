@@ -1,0 +1,135 @@
+body{background-image: url(../media/photo/Img_fond.jpg);}
+
+#titre_rubrique{
+	margin-top: 0;
+	padding-top: 2.5cm;
+	text-align: center;
+	color: #4169E1;
+	font-family: fantasy;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	font-size: 3em;
+}
+
+#intro{
+	border-style: double;
+	border-color: white;
+	border-width: 10px;
+	margin-top: 5%;
+	margin-left: 35%;
+	margin-right: 3%;
+	background-color: #D6EAF8;
+}
+p{
+	padding-left: 1%;
+	font-size: 1.2em;
+}
+
+.titre_liste{
+	text-decoration: underline;
+}
+
+#ingredients li{
+	list-style-type: circle;
+	margin-left: 5%;
+}
+
+#preparation li{
+	list-style-type: lower-hexadecimal;
+	margin-left: 2%;
+}
+
+#sommaire{
+	border-style: inset;
+	border-color: black;
+	border-width: 7px;
+	background: #BC8F8F;
+	width: 25%;
+	margin-left: 3%;
+	margin-top: -4cm;
+}
+
+h3{margin-left: 10%;}
+
+ol li{list-style-type: upper-roman;}
+
+h2{
+	text-decoration: overline underline;
+	text-decoration-style: wavy;
+}
+
+.article{
+	border-style: double;
+	border-color: white;
+	border-width: 10px;
+	margin-top: 5%;
+	background-color: #FFFAFA;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+#beurre{
+	width: 7cm;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#post-it_1{
+	margin-left: 60%;
+	margin-top: -12%;
+	width: 6cm;
+	border: 0.5cm black inset;
+}
+
+#post-it_2{
+	margin-left: 80%;
+	margin-top: -22%;
+	width: 6cm;
+	border: 0.5cm black inset;
+}
+
+blockquote{
+	font-size: 1.2em;
+}
+
+.lien{
+	font-size: 1em;
+}
+
+#finistere_1{
+	margin-right: auto;
+	margin-left: auto;
+	width: 25cm;
+}
+
+#lausanne_1{
+	width: 20cm;
+	margin-right: auto;
+}
+
+#lausanne_2{
+	width: 20cm;
+	margin-left: auto;
+	margin-top: -7.5cm;
+}
+
+#venise_1{
+	margin-right: auto;
+	margin-left: auto;
+	width: 25cm;
+}
+
+#reseau{
+	text-align: center;
+	font-size: 2em;
+	font-family: Snell Roundhand;
+}
+
+.logo{
+	display: inline-block;
+}
+
+#insta{
+	margin-top: -5%;
+	margin-left: 40%;
+}

@@ -1,0 +1,158 @@
+body {
+    font-family: 'Anton', sans-serif;
+    background-image: url(../media/photo/yellowcarreau.jpg);
+}
+/* ********************* Présentation ******************* */
+#Presentation {
+    margin-left: 25%;
+    margin-top: 5%;
+    background-color: #F4CE83;
+    margin-right: 20%;
+    border: double;
+    width: 20%;
+    font-size: 1.5em;
+    text-align: center;
+    box-shadow: 6px 6px 28px -1px rgb(255, 255, 255);
+    border-radius: 10px;
+    color: #F55858 ;
+}
+#Presentation:hover{
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+}
+#titre {
+    margin-top: 0cm;
+    padding-top: 2.5cm;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 3em;
+    color: #fd0000 ;
+    border: solid;
+    background-color: #F4CE83;
+    border-color:rgb(219, 43, 43);
+    margin-right: 30%;
+    margin-left: 30%
+       
+}
+h2 {
+    font-size: 2em;
+    text-decoration: underline;
+}
+h3{
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+p {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.3em;
+}
+#point {
+    list-style-type: square;
+    
+}
+.anon {
+    margin-left: 50%;
+    margin-top: -20%;
+    width: 12%;
+    border: double;
+    box-shadow: 6px 6px 28px -1px rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+.anon:hover{
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+}
+.image{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/********************** Commment bien s'entourer ************************/
+.rencontre{
+    margin-left: 20%;
+    margin-top: 5%;
+    background-color: #F4CE83;
+    margin-right: 25%;
+    border: double;
+    width: 60%;
+    font-size: 1.5em;
+    text-align: center;
+    box-shadow: 6px 6px 28px -1px rgb(0, 0, 0, 0.75);
+    border-radius: 10px;
+    color: rgb(242, 110, 87);
+  
+}
+dt{
+    text-decoration: underline;
+    font-size: 1.3em;
+   
+}
+dd{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.attention{
+    color: red;
+}
+.sel{
+    text-align: left;
+    color: black;
+}
+#paris1{
+    color: red;
+
+}
+
+#chaises1{
+    text-decoration: underline;
+    color: red;
+}
+.craquage{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#understand{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#icons {
+    width: 50%;
+    text-align: right;
+}
+#icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: #fffae1;
+}
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+
+}
+
+#reseau{
+    text-align: center;
+    font-size: 2em;
+    font-family: Snell Roundhand;
+}
+
+.logo{
+    display: inline-block;
+}
+
+#insta{
+    margin-top: -5%;
+    margin-left: 40%;
+}
