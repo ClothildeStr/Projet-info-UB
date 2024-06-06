@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1700421027 source:/home7/cs433796/ProjetSI_Cornevin_Strainchamps/ProjetSI_Cornevin_Strainchamps.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<cstdlib>
+	<cstdio>
+	<jpeglib.h>
+	<jerror.h>
+	<cmath>
+	<iostream>
+
